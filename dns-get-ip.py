@@ -8,4 +8,4 @@ def resolve_hostname(hostname):
     except socket.gaierror as e:
         print(f"Errore nella risoluzione dui {hostname}: {e}")
 
-resolve_hostname("www.unimarconi.it")
+resolve_hostname("www.casa-alessandra.it")
